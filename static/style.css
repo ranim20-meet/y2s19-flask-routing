@@ -1,13 +1,26 @@
 body {
-    background: #fcfcfc;
-    display: flex;
+    background: white;
 }
 
 .student_info {
-	border-color: blue;
-}
+	border-style: solid;
+ 	border-width: 5px;;
+ 	border-color: blue;
+ 	width: 25%;
+
+ }
 
 .container {
+	height: 90vh;
+	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap; 
+	justify-content: space-around;
+	align-content: space-between;
+
+}
+
+h1, h2 {
+	margin:0;
+	height: 5vh;
 }
