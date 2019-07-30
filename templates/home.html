@@ -6,5 +6,15 @@
 </head>
 <body>
     <h1>Welcome to the home page!</h1>
+    <h2>Our Students:</h2>
+    <div class = "container">
+	    {% for student in students: %}
+	        <div class = "student_info">
+			    <h3>Student name: {{student.name}}</h3>
+			    <p>Year: {{student.year}}</p>
+			    <p>Finished lab? {{student.finished_lab}}</p>
+			</div>
+		{% endfor %}
+	</div>
 </body>
 </html>

@@ -35,10 +35,12 @@ def query_all():
 	Print all the students in the database.
 	"""
 	students = session.query(Student).all()
-	for student in students:
-		print(student)
-		print('\n')
+	#for student in students:
+	#	print(student)
+	#	print('\n')
 	return students
+
+query_all()
 
 def delete_student(name):
 	"""

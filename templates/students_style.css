@@ -1,0 +1,7 @@
+body{
+	display: flex;
+}
+
+.student_info {
+	flex-wrap; wrap;
+}

@@ -6,5 +6,10 @@
 </head>
 <body>
     <h1>This is the page for the student with id {{ id_number }}.</h1>
+    <h3>Student name: {{student.name}}</h3>
+    <h3>Year: {{student.year}}</h3>
+    <h3>Finished lab? {{student.finished_lab}}</h3>
+    <a href = "/">Back to home page</a>
+    <a href = "{{ url_for('home')}}">Back to home page</a>
 </body>
 </html>

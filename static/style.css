@@ -1,3 +1,13 @@
 body {
     background: #fcfcfc;
+    display: flex;
+}
+
+.student_info {
+	border-color: blue;
+}
+
+.container {
+	flex-direction: row;
+	flex-wrap: wrap; 
 }
